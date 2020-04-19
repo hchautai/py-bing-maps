@@ -5,7 +5,7 @@ Bing Maps API:  http://www.bingmapsportal.com
 Main file for interacting with the Bing Maps API.
 """
 
-from urllib import urlencode
+from urllib.parse import urlencode
 import zlib
 import os
 
